@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+   
+}
+
+html , body{
+    /* color: white; */
+    background: #18181b;
+    color: white;
+    width: 100%;;
+    height: 100%;
+}
+
+.nav
+{
+    color: rgba(0, 0, 255, 0.766);
+    font-size: small;
+}
+
+.read_all_user,.create_user,.all_user,.back_to_home{
+    margin: 1rem;
+}
+
+
+.block1,.block2,.block3
+{
+    height:4rem;
+    padding: 4px;
+    height: 2rem;
+    margin-left:1rem ;
+} 
+
+.submit
+{
+    margin: 1rem;
+    padding: 4px;
+    width: 6em;
+}
+
+.user_details
+{
+    height: 25rem;
+    border-radius: 7px;
+    width: 15rem;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+.user_img{
+ 
+    border-radius: 1rem;
+    height: 13rem;
+    /* margin-top: 1rem; */
+    /* margin: 1rem; */
+    width: 100%;
+    margin-bottom: 1rem;
+    background:#3c3c3cc4;
+}
+
+.changing_details
+{
+    padding-top: 2rem;  
+     /* display: flex; */
+}
+
+.edit{
+    padding-left: 2rem;
+    /* padding-top: 2rem; */
+    /* margin-left: 2px; */
+    
+}
+.delete
+{
+    
+    padding: 2rem;
+
+}

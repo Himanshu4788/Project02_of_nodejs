@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class=" container">
+        <div class="nav text-blue">
+            <a class="read_all_user" href="/read">Read all user.</a>
+        </div>
+        <h1 class="create_user text-3xl tracking-tighter ">Create User</h1>
+         <form action="/create" . method="post">
+             <input class="block1  border-2 border-zinc-200 rounded-lg  bg-transpanrent" type="text" name="name" placeholder="name" >
+             <input class="block2  border-2 border-zinc-200 rounded-lg  bg-transpanrent" type="text" name="email" placeholder="email" >
+             <input class="block3  border-2 border-zinc-200 rounded-lg  bg-transpanrent" type="text" name="image" placeholder="image url" >
+             <input class="submit  rounded-lg bg-blue-500" type="submit" value="Create User" >
+         </form>
+    </div>
+     <script src="javascripts/scripts.js"></script>
+</body>
+</html>
